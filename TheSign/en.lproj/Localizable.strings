@@ -1,0 +1,184 @@
+/* 
+ Localizable.strings
+ TheSign
+ 
+ Created by Antonio Emanuele Cutarella on 07/02/22.
+ 
+ */
+
+"TabBar1" = "Tab bars can be found at the bottom of the screen, it helps people understand the types of information or features provided by an app, the tabs allow the user to switch from one section to another.By default a Tab Bars is translucent. Depending on the size of the device, the number of visible tabs may be less than the total number of tabs.Use the Tab Bars of the tabs only to enable navigation and not to help people perform actions.We avoid hiding the Tab Bars when the user navigates to areas other than the app, the tab bars is a global navigation control for your app so we have to make sure it is always visible, the only exception is the Tab Bars inside of a modal view since a modal view offers the user a separate experience.";
+
+"Space" = "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ";
+
+"TabBar2" = "Avoid removing or disabling a tab when its content is not available.If tabs are enabled in some cases but not others, the app interface may appear unstable and unpredictable.Consider using SF symbols to provide scalable and visually consistent tab bar elements. When using SF symbols, the elements of the tab bar automatically adapt to different contexts. If you need to create your own tab bar glyphs, create each glyph in two dimensions so that the tab bar looks good in both normal and compact environments.";
+
+"Toolbar1" = "The Toolbar appears at the bottom of the screen and contains buttons to perform actions related to the current view, by default the toolbar is translucent. The toolbar hides the keyboard and on the screen. A toolbar provides a prominent and consistent location for frequently used commands, if you need to provide a way to change context, consider using a tab bar instead. ";
+
+"Toolbar2" = "In a toolbar that contains three or fewer buttons we must consider using concise text titles for greater clarity. In a toolbar with more than three buttons, consider using SF symbols to save space. Symbols SF offers a wide range of customizable symbols that you can use to represent actions in your app, check the Glyphs for directions.";
+
+"SearchBar" = "The Search Bar allows people to search faster in a large collection. The bar needs to implement the Delete button to allow us to delete the content. We need to enable the cancel button when appropriate, which allows us to terminate the search immediately.";
+
+"status_bar1" = "The Status Bars can be found along the upper edge of the screen and shows information about the battery status, the telephone operator, the time, etc. By default the background of the Status Bars is transparent, we must always keep the status bars legible and we must not put a content behind that implies interactivity.";
+
+"status_bar2" = "There are several common techniques to hide content under the status bar like: Using a navigation bar in your app, which automatically displays a status bar background and ensures that content doesn't appear below the status bar; Displaying a custom image, such as a gradient or solid color, behind the status bar and placing a blurry view behind the status bar.";
+
+"navigation_bar1" = "The navigation bars are found at the top of an app and allows us to navigate on a series of screens.On the left side we can find the back button, often it can also be called as the previous screen, the right side can contain a button like Edit or End. Consideration should be given to temporarily hiding the navigation bar when viewing full screen content such as photos.";
+
+"navigation_bar2" = "In most cases, the title helps people understand what they are looking at. If we want to give more emphasis to the context we have to use a large title, in some apps it helps to orient people during the search navigation.In a tabbed layout, large headings can help clarify the active tab. In iOS 13 and later, a large title navigation does not include a background or a shadow by default, and a large title scrolling through the content becomes a standard title.";
+
+"navigation_bar3" = "The navigation bar control allows people to search faster in a large collection. We can find navigation bar control by itself, in a navigation bar or in a content view. In the navigation bar we have to implement the Delete button which allows us to delete the content. We need to enable the Cancel button when appropriate, which allows us to terminate the search immediately.";
+
+"Web_view" = "A web view loads and displays rich web content, such as embedded HTML and websites, directly within the app. Mail uses a web view, for example, to show HTML content in messages. Enable back and forth navigation when appropriate. Web views support forward and backward browsing, but this behavior is disabled by default. If people will be using your web view to visit multiple pages, enable back and forth navigation and provide corresponding controls to launch these features. Avoid using a web view to create a web browser. Using a web view to allow people to briefly access a website without leaving the context of your app is fine, but Safari is the primary way people surf the web on iOS. Attempting to replicate Safari functionality in your app is unnecessary and not recommended.";
+
+"Text_view" = "A text view displays styled multiline text content. Text views can be of any height and allow scrolling when the content extends out of the view. By default, content within a text view is left aligned and uses the black system font. If a text view is editable, a keyboard appears when you tap inside the view. Keep the text legible. While you can use multiple fonts, colors, and alignments in creative ways, maintaining the readability of your content is essential. It's a good idea to adopt the dynamic type so that your text still looks good if people change the size of the text on their device. You should also test your content with accessibility options enabled, such as bold text. Shows the appropriate keyboard type. iOS provides several types of keyboards, each designed to facilitate a different type of input. To make data entry easier, the keyboard displayed when editing a text view should be appropriate for the type of content in the field.";
+
+"Interface_essentials1" = "Most of the IOS apps use elements of UIKit which is a framework that gives the apps a coherent aspect ensuring customization and ADAPTABILITY to all IOS devices.The main categories of UIKit elements are Bars: indicate where your app is in the navigation and may contain keys that initiate communication. Views : contain the main elements of the app such as text, graphics and interactive elements and lastly Controls , which are used to act or transmit information; buttons and switches are controls.";
+
+"Themes1" = "3 main differences between iOS and other platforms are Clarity: the text is legible at any size; WHITE SPACES, colors and graphics are aimed at interaction. Deference: the FLUIDITY in the interface guarantees that those who use the app are never in competition with it; it is also important to use shadows and shades to a minimum so that you can dare to give importance to the content and Depth: the use of realistic gestures favors navigation and allows the user to directly view the HIERARCHY of the contents; the use of adequate transitions adequate DEPTH to the text Design principles: Contribute to the app identity. Aesthetic integrity: refers to how well the appearance of an app is in accord with its function: for example an app that helps people to be focused will have a discreet design, while a video game will surely have an attractive design so that one can be definitely encouraged to play with it. Consistency: a consistent app uses icons, text styles that are well known and are FAMILIAR with the user. Direct manipulation: it facilitates the user in navigation and ensures that you can have IMMEDIATE FEEDBACK of an action performed, an example is when you rotate the screen. Feedback: the use of sounds or highlighting of elements before they are used means that there is a perceptible feedback from the user. Metaphors: People learn faster with actions they may be familiar with and User control: an app must find the right balance between user freedom and avoid unwanted outcomes, to do this it is essential to have a CLEAR and INTUITIVE interface.";
+
+"Sheets1" = "A sheet helps people perform a separate activity related to the parent view without taking them out of the current context. For example, Mail uses a sheet to help people compose an email without leaving their inbox. A sheet appears as a tab that includes the underlying content. The top corners of the card are rounded to visually distinguish it from the main view, we can customize the corner radius of a sheet to coordinate it with the corner radius you use elsewhere. People typically expect to resize a sheet when scrolling through its contents or dragging the grabber, which is a small horizontal marker that can appear on the top edge of a sheet. The sheets automatically support the large stop. Adding the middle sheet allows the rest to remain at both heights, while the expanding sheet is stationary at full height. By default, a sheet is modal, presenting a parent experience that blurs the view and prevents interaction with it. After people finish interacting with a modal sheet, they ignore it, or it closes automatically, before resuming activity in the main view.";
+
+"Sheets2" = "Use a sheet for non-engaging content and simple tasks. A sheet allows part of the main view to remain visible behind it, helping people retain their original context as they interact with the sheet. Use a full-screen modal slideshow to deliver engaging content such as videos, photos, or camera views, Full-screen modal style covers the entire screen, minimizing visual distraction. Consider supporting medium stop to allow for progressive disclosure of sheet content. For example, a sharing sheet shows the most relevant elements within the middle stop, where they are visible without scaling; You can also use a modeless sheet when you want to present extra items that people can use without stopping the main activity. When people choose an item on a modeless sheet, the parent view can update in response, providing feedback on the effect of the item and allowing people to continue their activity while the sheet remains on screen. In general, include a grabber in a resizable sheet. A grabber shows people that they can drag the sheet to resize it; they can also touch it to scroll through the latches. Don't display a sheet on top of a popover. While you may see a sheet inside a popover, nothing should appear above a popover (except possibly a warning).";
+
+"Tables1" = "A table presents data as a single-column scrolling row list that can be divided into sections or groups. We use a table to display large or small amounts of information cleanly and efficiently in the form of a list, in general, tables are ideal for text-based content and often appear as a means of navigation on one side of a split view, with the related content shown on the opposite side. Plain, Rows can be separated into labeled sections and an optional index can be displayed vertically along the right edge of the table. A header can appear before the first element of a section and a footer after the last element.";
+
+"Tables2" = "Grouped, Rows are displayed in groups, which can be preceded by a header and followed by a footer. This table style always contains at least one group, and each group always contains at least one row. A grouped table does not include an index.";
+
+"Tables3" = "Inset Grouped, Rows are displayed in groups with rounded corners and indents relative to the edges of the main view. This table style always contains at least one group and each group always contains at least one row and can be preceded by a header and followed by a footer. An inset grouped table does not include an index. The inset grouped style works best in a regular-width environment. Since there is less space in a compact environment, an inset grouped table can cause text to wrap, especially when the content is localized.";
+
+"Tables4" = "Standard table cell styles are used to define how content is displayed in table rows. Basic (Default), an optional image on the left side of the line, followed by a left-aligned title. This is a good option for displaying items that do not require additional information.";
+
+"Tables5" = "Subtitle, a left-aligned title on one line and a left-aligned subtitle on the next. This style works well in a table where the rows are visually similar. The additional subtitle helps distinguish the lines from each other. Right Detail, a left-aligned title with a right-aligned subtitle on the same line and also Left Detail, a right-aligned title, followed by a left-aligned subtitle on the same line. All standard table cell styles also allow graphic elements, such as a check mark or a disclosure indicator, naturally adding these elements decreases the space available for titles and subtitles.";
+
+"Tables6" = "We keep the text concise to avoid clipping. Truncated words and sentences are difficult to scan. Text truncation is automatic in all table cell styles but can present problems depending on the cell style used and where the truncation occurs. Consider using a custom title for a Delete button. If a row supports deletion and helps provide clarity, replace the system-provided Delete title with a custom title. We provide feedback when a selection is made. People expect a line to be highlighted briefly when its content is tapped. We design a custom table cell style for non-standard table rows. Standard styles are ideal for use in a variety of common scenarios, but some content or the overall app design may require a heavily customized table look.";
+
+"Scroll_views1" = "A scrolling view gives the user the ability to browse content, such as text in a document or a collection of images that is larger than the visible area. A scrolling view has no appearance in itself but shows temporary scroll indicators when the user interacts with it. Support zoom behavior appropriately. If it makes sense in your app, let the user pinch or double-tap to zoom in and out. When we enable zoom, it sets the maximum and minimum scale values that make sense. Let's consider showing a page control element when a scroll view is in paging mode. A page control shows how many pages are available and indicates which is currently visible. We do not place a scrolling view inside another scrolling view. Generally display one Scroll Views at a time. People often make large swiping gestures when swiping, and it can be difficult to avoid interacting with a nearby swipe view on the same screen. If we have to insert two scroll views on one screen, we consider allowing the user to scroll in different directions so that a gesture is less likely to affect both views.";
+
+"Pages1" = "A page view controller provides a way to implement linear navigation between pages of content, for example in a document, book, notebook, or calendar. A page view controller uses one of the two styles to handle transitions between pages while browsing: page scroll or curl. A scroll transition does not look specific; pages flow smoothly from one to the other. A page curl transition causes pages curl as you scroll the screen, turning like the pages of a physical book. If appropriate, implement a way to navigate non-linearly. When using a page view controller, pages scroll sequentially and there is no way to jump from page to page. people may need to access pages out of sequence in the app, implement a custom control that provides this functionality.";
+
+"Image_views1" = "An Image View displays a single image or an animated sequence of images on a transparent or opaque background. Within an Image View, images can be stretched, resized, resized to fit or pinned to a specific location . Image views are not interactive by default. If possible, make sure that all images in an animated sequence are consistent in size. Ideally, images should be pre-scaled to fit the view so that the system does not need to resize. If the system needs to resize , it is easier to achieve the desired results when all images are the same size and shape.  ";
+
+"Collections" = "A collection manages an ordered set of content, such as a set of photos, and presents it in a customizable, visual layout. In general, collections are ideal for displaying image-based content. Backgrounds and other views can be optionally implemented to visually distinguish subsets of elements. We avoid creating radical new designs when a standard row or grid layout is sufficient. A collection should enhance the user experience, not become the center of attention. If it is difficult to touch an element in the collection, people may feel uncomfortable and will lose interest before they get to the content they want. We consider using a table instead of a collection for text. We take care when making layout changes, the layout of a Collection it can be changed at any time. ";
+
+"Alerts1" = "Alerts convey important information about the status of your app or device. An alert consists of a title, an optional message. Apart from these configurable elements, you cannot customize the visual appearance. We minimize the alerts as alerts disrupt the user experience. We use an action sheet, not an alert, to offer choices related to an intentional action. For example, when people cancel the email they are editing, a action sheet offers three choices: discard changes (or the entire draft), save the draft, or return to editing. We avoid scrolling through alerts whenever possible. ";
+
+"Alerts2" = "We write short, descriptive, multi-word alert titles. Less text is generally more, single word titles rarely provide enough information. We always try to create a title that sufficiently describes the situation without having need additional message text. If the title is a complete sentence, use sentence-style capitalization and final punctuation. If we need to provide a message, write short, complete sentences. Create a message short enough to contain a line or two in so people don't have to scroll. He's straightforward and uses a neutral, approachable tone. Let's avoid explaining the alert buttons. If the alert text and button titles are clear, there's no need to explain what the buttons do. ";
+
+"Alerts3" = "Create concise and logical button titles. Aim for a one- or two-word title that describes the result of clicking the button. Prefer verbs and verbal phrases that relate directly to the title and message of the alert . Use OK for simple acceptance and avoid using Yes and No. Always use Cancel to assign a title to a button that cancels the alert action. We place the buttons where people expect them. In a classic two-way alert buttons, the button people are most likely to touch is on the bottom side and the Cancel button is on the top side. We identify destructive buttons. If an alert button causes a destructive action, such as deleting content, use the destructive button style to ensure that the system displays it appropriately. ";
+
+"Activity_view1" = "An Activity View is an activity such as Copy, Favorite, Find etc. The activities are managed by an activity view that appears to us as a sheet according to the device we are using, we use the activities to give the possibility to user to access services or activities that your app can perform. The system provides us with a variety of activities including Messages, AirPlay, Print, these activities always appear first in the activity views and cannot be reordered. ";
+
+"Activity_view2" = "Design simple images to represent your custom activities, a template image uses a mask to create an icon. The images must be centered in an area of ​​approximately 70 px X 70 px, remember to use white and black with transparency. Create activity titles that succinctly describe your tasks. Titles appear below icons in an activity view. Make sure the activities are appropriate to the current context, for example on pages that cannot be printed we must exclude the print activity, to access the activities just use the Action button. ";
+
+"Action_sheet" = "The action sheets are used for at least two options relating to the action that users have chosen; these must have a Cancel button that give the option to people to refuse an action that could destroy data. It is useful to show the destructive choices visible with strong colors such as red and it is advisable to avoid letting an action sheet scroll, as it would then be difficult to press the buttons related to it. On smaller screens, an action sheet rises from the bottom of the screen.";
+
+"Buttons1" = "The system offers standard but still customizable buttons; they exist for Activate / Deactivate and retractable. The system offers 4 different styles of buttons that give different visual characteristics each of them in 3 different sizes. It is possible to configure a button in style and size. Angles are applied directly to the sides and the app color is given, however it is possible to use the system choices. When creating a button, a SYMBOL or a text is preferable, in both cases, which anticipate or in any case not intuit the action of the key; it is preferable that the text begins with a verb that summarizes the action. ";
+
+"Buttons2" = "Include subtitles under the button serve to give secondary information of the button such as the number of items for the title add to cart , the subtitles have smaller texts; it is not possible to give titles to give more information about the be useful to make the interface LESS HEAVY enter the states of the use of a button if this does not cause immediate and tangible consequences. " ;
+
+"Buttons3" = "A system button can also have a semantic role within the interface; there are several roles: " ;
+
+"Buttons4" = "Normal (no specific meaning), Primary (it is the button that users are expected to use the most, typically in bold), Undo (undo an action performed) and Destroy (button that leads to the destruction of data, typically red). It is essential that once touched the main button I can guarantee an EASY CONFIRM of the choice made; if the button is in a view it is useful for this to close automatically once touched enter and, in general , it is best to avoid assigning a main role to a destructive button even if it is the one that is typically touched the most, this is because people usually tend to touch the buttons just because they are main not because they actually read what is there. A toggle button allows you to switch from one state to another such as on, off or show, hide and this is good to do using different visual styles as in the case of the app Calendary.";
+
+"Buttons5" = "When customizing a toggle button it is useful not to rely only on the change of color or a strong contrast between colors but also to help the user with other VISUAL CONTENTS such as: changing the shape of the button or change content. A pop-up button is a type of system button that can display a menu of mutually exclusive options.";
+
+"Buttons6" = "Use a pop-up button if you need to make people choose from a list of mutually exclusive actions, use a drop-down button instead if you need to allow multiple submenus to be used. A pop-up button always shows the choice made if no one has been made use a default which is the most common one. Usually you use pop-up buttons when you have LITTLE SPACE available and you don't need to always show all the options. A drop-down button is a button that it allows a choice between several actions and closes once the action has been chosen to be able to execute it, or it can be closed by touching elsewhere on the screen. Unlike the pop-up one, it always shows the same choice regardless of the one made by the user. ";
+
+"Buttons7" = " Avoid putting all the actions of a view into a single drop-down button. The main actions of a view must be easily FOUND, so you don't want to hide them in a drop-down button. Putting too many actions into a drop-down button it makes it less focused and means that people have to tap at least twice to do anything. Use another key to focus actions that are not prominent in the interface. They require a main view and are placed in the top left. ";
+
+"Buttons8" = "You don't put the delete and done buttons in a view because they both perform the same action, you could instead add a cancel button that allows you to avoid unwanted data loss. There are types of buttons familiar with the user so when using these types of keys you must make sure that they perform the actions that are INTENDED by the user. An example of these keys is the info key  ";
+
+
+"Context_menu1" = "Context menus are used to obtain additional features WITHOUT CLUTTERING the interface. Context menus are similar to Peek and Pop, but with two fundamental differences:";
+
+"Context_menu2" = "Context menus are available on all devices with iOS 13 and later; Peek and Pop is only available on devices that support 3D Touch. Context menus also IMMEDIATELY display contextually relevant commands; Peek and Pop requires an upward swipe to display commands. It is useful to have contextual menus in some parts of the app, not in all so as not to confuse the user, furthermore, in a contextual menu it is not recommended to have many options for choice. It is useful to have contextual menus in some parts of the app, not in all so as not to confuse the user, furthermore, in a contextual menu it is not recommended to have many options for choice.As regards the arrangement of the choices, it is better to put those that you expect can be touched on top, organizing them using separators based on the action (no more than three).";
+
+"Edit_menu1" = "People can tap and hold or double tap an item in a text field, text view, web view or image view to select content and view editing options, such as Copy and Paste. By default, options include Cut, Copy, Paste, Select, Select All and Delete commands. Adjust the position of the editing options if needed. Although you cannot change the shape of the menu, its position is configurable: you can prevent it from covering important content or parts of the interface. Do not implement other controls with the same functionality as the edit menu as someone may change their mind after performing an operation, so it is recommended that you always implement undo and redo support. Minimize the number of custom commands so you don't overwhelm people with too many choices.";
+
+"Labels1" = "A label describes an on-screen interface element or provides a short message. Keep your labels legible by better adopting the DYNAMIC type so that your labels still look good when a user changes the text size on their device.";
+
+"Page_controls1" = "Page controls do not help people view or navigate pages in a hierarchy or non-linear arrangement. Page controls can handle any number of pages, making them particularly useful in situations where people can create custom LISTS. A page control can adjust the appearance of the indicators to provide more information about the list. People interact with the controls on the page by tapping or swiping (to scroll, people tap the control and drag left or right). Tapping the start or end side of the current page indicator displays the next page or earlier. ";
+
+"Page_controls2" = "When you include a list view, you give people an ALTERNATIVE WAY to find the page they want and you can also allow them to reorder the list. Do not use animations while scrolling, people can scroll very quickly so the animation would be useless. A page control can have different background styles: Automatic (Use this style when the page control is not the main navigation element in the user interface) , Prominent (Use this style only when the control is the primary navigation control on the screen) and Minimum (Use this style when you just want to show the current page position in the list and don't need to provide visual feedback when scrubbing. Center the page control at the bottom of the screen).";
+
+"Progress_indicator1" = "Use the activity indicators and progress bars to let people know that your app is not in STALL and to give them an idea of ​​how long they will wait. There are different types of indicators:";
+
+"Progress_indicator2" = "Activity indicators: they run while an action is being performed.";
+
+"Progress_indicator3" = "Keep activity indicators moving. People associate a stationary activity indicator with a stalled process. Keep spinning so they know something is happening.";
+
+"Progress_indicator4" = "Progress bar: A progress bar includes a bar that fills from left to right to show the progress of a task with a known duration. Progress bars are not interactive, although they are often accompanied by a button to cancel the corresponding operation.";
+
+"Progress_indicator5" = "Network activity indicator: A network activity indicator rotates in the status bar at the top of the screen when the network occurs. It disappears when the network is complete. This indicator looks like a activity and is not interactive.";
+
+"Refresh_content_control1" = "A refresh control is a specialized type of activity indicator, it is hidden by default and becomes visible when you drag down the view to reload. Perform automatic content updates so users are not responsible for initiating each update. Keep your data up to date by updating it regularly.";
+
+"Segmented_control1" = "A segmented control is a linear set of two or more segments, each of which functions as a mutually exclusive button. Within the control, all segments have the same width. Limit the number of segments to improve USABILITY; on iPhone, a segmented control should have five or fewer segments. Avoid mixing text and images into a segmented control, as it can lead to a confusing interface and disconnected.";
+
+"Slider1" = "A slider is a horizontal track with a control called a bar, which you can slide with your finger to move between a minimum and maximum value, such as the brightness level of the screen. The appearance of a slider can be adjusted to blend with the app design and to communicate intent.";
+
+"Stepper1" = "A stepper is a two-segment control used to increase or decrease an incremental value. Make sure people know what value they are changing when they use a stepper, and don't use it when large changes in value are likely.";
+
+"Switch1" = "A switch is a visual switch between two mutually exclusive states: on and off. Consider coloring a switch to match the style of your app. The switches are either on or off. Providing labels describing these states is redundant and clutters the interface.";
+
+"Text_field1" = "A text field is a single-line, fixed-height field that automatically causes a keyboard to appear when people touch it. Use a text field to request a small amount of information, such as a name or email address.";
+
+"QuizTheory" = "Theory";
+
+"QuizTime" = "Quiz Time!";
+
+"QuizNextQuestion" = "Next";
+
+"QuizTimeDescription" = "Select the correct answer to each of the following questions.";
+
+"QuizTimeLetsGo" = "Let's Go!";
+
+"QuizScore" = "Final Score:";
+
+"QuizGrade" = "Letter Grade:";
+
+"QuizTimeElapsed" = "Total time:";
+
+"QuizRestart" = "Re-take Quiz";
+
+"Question1_1" = "What are the 3 main features that differentiate iOS from others?";
+
+"Question2_1" = "Why are metaphors used?";
+
+"Question3_1" = "What are the main categories of iOS Essentials?";
+
+"Question4_1" = "Where can we find the Navigation Bar?";
+
+"Answer1_1" = "Clarity, deference and depth.";
+
+"Answer1_2" = "Clarity and consistency.";
+
+"Answer1_3" = "Depth, consistency, metaphors.";
+
+"Answer2_1" = "To split two images.";
+
+"Answer2_2" = "To help the user.";
+
+"Answer2_3" = "To make an app more fun.";
+
+"Answer3_1" = "Views.";
+
+"Answer3_2" = "Icons, bars.";
+
+"Answer3_3" = "Views, icons, bars.";
+
+"Answer4_1" = "At the top of the app";
+
+"Answer4_2" = "At the bottom of the app";
+
+"Answer4_3" = "To the right side of the app";
+
+"Answer4_4" = "To the left side of the app.";
+
+"Answer5_1" = "";
+
+"Answer5_2" = "";
+
+"Answer5_3" = "";
+
+"NoAnswer" = "None of these.";
